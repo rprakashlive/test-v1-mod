@@ -125,6 +125,6 @@ app.use(function(err, req, res, next) {
 var port = process.env.PORT || 9000;
 // Start Server
 server.listen(port, () => {
-  console.log('Server started on port '+port);
+  console.log('Server started on port --->'+port);
 });
 module.exports = app;
